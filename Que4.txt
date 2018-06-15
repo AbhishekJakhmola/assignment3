@@ -1,0 +1,17 @@
+list =[]
+
+n=int(input("Enter length of the list "  ))
+
+for i in range (n):
+
+    x=int(input("enter element \n"))
+
+    list.insert(i,x)
+
+    i+=1
+
+print("The sorted list is ")
+
+list.sort()
+
+print(list)
