@@ -1,0 +1,33 @@
+list =[]
+
+list1=[]
+
+list2=[]
+
+n=int(input("Enter length of the list1 "  ))
+
+for i in range (n):
+
+    x=input("enter element \n")
+
+    list.insert(i,x)
+
+    i+=1
+
+n=int(input("Enter length of the list2 "  ))
+
+for i in range (n):
+
+    x=input("enter element \n")
+
+    list1.insert(i,x)
+
+    i+=1
+
+list2=sum([list, list1],[])
+
+print("The sorted and merged  list is ")
+
+list2.sort()
+
+print(list2)
