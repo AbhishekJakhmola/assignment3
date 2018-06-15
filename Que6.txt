@@ -1,0 +1,48 @@
+print("Stack")
+stack = ["A", "B", "C"]
+
+print(stack)
+
+print("After pushing D and E")
+
+stack.append("D")
+
+stack.append("E")
+
+print(stack)
+
+print("After poping")
+
+print(stack.pop())
+
+print(stack)
+
+print(stack.pop())
+
+print(stack)
+
+from collections import deque
+
+print("Queue")
+
+queue = deque(["A", "B", "C", "D"])
+
+print(queue)
+
+print("Adding at front")
+
+queue.append("E")
+
+print(queue)
+
+queue.append("F")
+
+print(queue)
+
+print("Deleting from rear")
+
+print(queue.popleft())                 
+
+print(queue.popleft())                 
+
+print(queue)
